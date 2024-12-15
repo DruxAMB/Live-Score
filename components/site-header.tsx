@@ -24,7 +24,7 @@ export default function SiteHeader() {
           >
             <VercelLogoIcon className="size-4" aria-hidden="true" />
             <span className="hidden sm:visible font-bold md:inline-block">
-              FootScore
+              RetroScore
             </span>
           </Link>
 

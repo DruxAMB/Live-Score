@@ -21,7 +21,7 @@ const fontHeading = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "FootScore",
+  title: "RetroScore",
   description: "Football games fixture",
 };
 
