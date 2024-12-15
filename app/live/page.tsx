@@ -34,7 +34,7 @@ export default function Page() {
     <>
       <section className="container ">
         <div className="mt-6">
-          <h2 className="text-2xl font-bold tracking-tight">En vivo</h2>
+          <h2 className="text-2xl font-bold tracking-tight">Live Matches</h2>
         </div>
         <div>
           <DataTable columns={columns} data={datos} />

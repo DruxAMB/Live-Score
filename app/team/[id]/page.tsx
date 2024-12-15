@@ -41,13 +41,13 @@ export default async function page({
                 />
               </CardContent>
               <CardFooter className="flex text-[13px] justify-center">
-                Fundacion: {equipo.team.founded}
+              Fundacion: {equipo.team.founded}
               </CardFooter>
             </Card>
             <Card>
               <CardHeader>
                 <CardTitle>{equipo.venue.name}</CardTitle>
-                <CardDescription>Cuidad: {equipo.venue.city}</CardDescription>
+                <CardDescription>City: {equipo.venue.city}</CardDescription>
               </CardHeader>
               <CardContent>
                 <Image
@@ -59,14 +59,14 @@ export default async function page({
                 />
               </CardContent>
               <CardFooter className="flex text-[13px] justify-center">
-                Capacidad: {equipo.venue.capacity} Personas
+                Capacity: {equipo.venue.capacity} People
               </CardFooter>
             </Card>
           </div>
           <div className="pt-4">
             <Card>
               <CardHeader>
-                <CardTitle>Proximo Partido</CardTitle>
+                <CardTitle>Next Match</CardTitle>
                 <CardDescription>{fecha}</CardDescription>
               </CardHeader>
               <CardContent className="flex gap-8 justify-center">
