@@ -56,7 +56,7 @@ export default async function Home() {
           </p>
           <div className="space-x-4">
             <Link
-              href="https://github.com/xmiguez/FootScore"
+              href="https://github.com/DruxAMB/Live-Score"
               target="_blank"
               rel="noreferrer"
               className={cn(buttonVariants({ variant: "outline", size: "lg" }))}
